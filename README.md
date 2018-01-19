@@ -8,10 +8,10 @@ This is code for paper:
 
 *   Python2.7+
 
->   tqdm
->   pandas
->   numpy
->   matplotlib
+>   tqdm  
+>   pandas  
+>   numpy  
+>   matplotlib  
 >   pytorch(cuda)
 
 
