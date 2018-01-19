@@ -1,0 +1,50 @@
+{
+    "generate_dic": {
+        "i-LIDS-VID_rgb": "/home/yonghui/Documents/i-LIDS-VID/sequences",
+        "i-LIDS-VID_flow": "/home/yonghui/Documents/i-LIDS-VID-EpicFlow/sequences",
+        "PRID2011_rgb": "/home/yonghui/Documents/PRID2011/multi_shot",
+        "PRID2011_flow": "/home/yonghui/Documents/PRID2011-EpicFlow/multi_shot",
+        "use_dataset": "i-LIDS-VID",
+        "train_dataset": "/home/yonghui/code/rp_ex/data/train_ilids.csv",
+        "valid_dataset": "/home/yonghui/code/rp_ex/data/valid_ilids.csv", "choise": "ilids, prid",
+        "is_running": true
+    },
+
+    "model": {
+        "liblinear": "/home/yonghui/code/rp_ex/lib/liblinear/python",
+        "model_zoo": "/home/yonghui/code/rp_ex/models",
+        "train_dataset": "/home/yonghui/code/rp_ex/data/train_ilids.csv",
+        "valid_dataset": "/home/yonghui/code/rp_ex/data/valid_ilids.csv",
+        "max_seqlen": 16,
+        "reversed": false,
+        "margin": 3.0,
+        "rnn_type": "GRU",
+        "learning_rate": 0.001,
+        "lr_decay_epoch": 300,
+        "cuda": true,
+        "epoch": 500,
+        "valid_epoch": 1,
+        "is_running": false,
+        "run_tag": "ilids-normal",
+
+        "save_cnn_path": "normal_cnn.pth",
+        "load_cnn": false
+    },
+
+    "full_model": {
+        "train_dataset": "/home/yonghui/code/rp_ex/data/train_ilids.csv",
+        "valid_dataset": "/home/yonghui/code/rp_ex/data/valid_ilids.csv",
+        "max_seqlen": 16,
+        "margin": 3.0,
+        "rnn_type": "GRU",
+        "learning_rate": 0.001,
+        "lr_decay_epoch": 200,
+        "cuda": true,
+        "epoch": 300,
+        "valid_epoch": 1,
+        "is_running": false,
+        "run_tag": "ilids",
+        "normal_path": "normal_cnn.pth",
+        "reversed_path": "reversed_cnn.pth"
+    }
+}
