@@ -1,40 +1,45 @@
 # Two-Stage Convolutional Neural Network (TSCNN)
 
-This is code for paper:  
-`Person Re-identification Using Two-stage Convolutional Neural Network`
+This is code for paper: `Person Re-identification Using Two-Stage
+Convolutional Neural Network` by Yonghui Zhang, Jie Shao, Deqiang
+Ouyang and Heng Tao Shen (submitted to ICPR 2018).
 
 
 ## Dependency Required
 
 *   Python2.7+
 
->   tqdm  
->   pandas  
->   numpy  
->   matplotlib  
+>   tqdm
+>   pandas
+>   numpy
+>   matplotlib
 >   pytorch(cuda)
 
 
->   Note that we only ran the code in `Unbuntu16-x64`, but it should can be ran successfully in other Linux distribution systems such as `debian` and `centOS`.
+>   Note that we only ran the code in `Unbuntu16-x64`, but it should be able to run successfully in other Linux distribution systems such as `debian` and `centOS`.
 
-## Runing
+## Running
 
-1. Download the dataset.
+### 1.Download the datasets.
 
-iLIDS-VID:[http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html](http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html)
+iLIDS-VID:
+[http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html](http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html)
 
-PRID2011:[https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/)
+PRID2011:
+[https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/)
 
-MARS:[http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html)
+MARS:
+[http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html)
 
-2. Extract epicflow.
+### 2.Extract epicflow.
 
-Download our another project: [epicflow-python3](https://github.com/zyoohv/epicflow-python3.git). More information please reference `README.md` file in it.
+Download our another project:
+[epicflow-python3](https://github.com/zyoohv/epicflow-python3.git).
+More information please see `README.md` file in it.
 
+### 3.Edit the configure file.
 
-3. edit the configure file `base_model/setting.json`
-
-Our setting file looks like:
+Our setting file `base_model/setting.json` looks like:
 
 ```
 {
@@ -57,10 +62,13 @@ Our setting file looks like:
 }
 ```
 
-In which the key word `is_running` decide if run this part code. The default setting is used to do experiment in `iLIDS-VID` dataset, edit it if needed in others datasets.
+in which the key word `is_running` decides to run this part code or
+not. The default setting is used to do experiment in `iLIDS-VID`
+dataset. Edit it if needed in other datasets.
 
-4. run `base_model/run.sh`
+### 4.Run `base_model/run.sh`.
 
 ## QA
 
-Any question will be relied in `Issues` soon, or email the author: `zyoohv@163.com`
+Any question will be replied in `Issues` soon, or email the author:
+`zyoohv@163.com`
