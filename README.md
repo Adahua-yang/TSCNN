@@ -9,11 +9,11 @@ Ouyang and Heng Tao Shen (submitted to ICPR 2018).
 
 *   Python2.7+
 
->   tqdm
->   pandas
->   numpy
->   matplotlib
->   pytorch(cuda)
+>   tqdm  
+>   pandas  
+>   numpy  
+>   matplotlib  
+>   pytorch(cuda)  
 
 
 >   Note that we only ran the code in `Unbuntu16-x64`, but it should be able to run successfully in other Linux distribution systems such as `debian` and `centOS`.
