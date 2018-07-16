@@ -1,8 +1,8 @@
 # Two-Stage Convolutional Neural Network (TSCNN)
 
-This is code for paper: `Person Re-identification Using Two-Stage
-Convolutional Neural Network` by Yonghui Zhang, Jie Shao, Deqiang
-Ouyang and Heng Tao Shen (submitted to ICPR 2018).
+This is code for paper: [Person Re-identification Using Two-Stage
+Convolutional Neural Network]() by Yonghui Zhang, Jie Shao, Deqiang
+Ouyang and Heng Tao Shen (accepted by ICPR 2018).
 
 
 ## Dependency Required
@@ -13,7 +13,7 @@ Ouyang and Heng Tao Shen (submitted to ICPR 2018).
 >   pandas  
 >   numpy  
 >   matplotlib  
->   pytorch(cuda)  
+>   pytorch(cuda)
 
 
 >   Note that we only ran the code in `Unbuntu16-x64`, but it should be able to run successfully in other Linux distribution systems such as `debian` and `centOS`.
@@ -70,5 +70,5 @@ dataset. Edit it if needed in other datasets.
 
 ## QA
 
-Any question will be replied in `Issues` soon, or email the author:
-`zyoohv@163.com`
+Any question will be replied in `Issues`, or email the author:
+`zyoohv@gmail.com`

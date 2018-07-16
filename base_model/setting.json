@@ -4,9 +4,11 @@
         "i-LIDS-VID_flow": "/home/yonghui/Documents/i-LIDS-VID-EpicFlow/sequences",
         "PRID2011_rgb": "/home/yonghui/Documents/PRID2011/multi_shot",
         "PRID2011_flow": "/home/yonghui/Documents/PRID2011-EpicFlow/multi_shot",
+        "Mars_rgb": "/home/yonghui/Documents/Mars_rgb",
+        "Mars_flow": "/home/yonghui/Documents/Mars_flow",
         "use_dataset": "i-LIDS-VID",
         "train_dataset": "/home/yonghui/code/rp_ex/data/train_ilids.csv",
-        "valid_dataset": "/home/yonghui/code/rp_ex/data/valid_ilids.csv", "choise": "ilids, prid",
+        "valid_dataset": "/home/yonghui/code/rp_ex/data/valid_ilids.csv",
         "is_running": true
     },
 
