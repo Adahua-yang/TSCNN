@@ -23,7 +23,7 @@ $ cd pytorch
 $ python setup.py install
 ```
 
-*   matlab
+3. matlab
 
 We use `Matlab R2016b` to run the extracting epic flow code. In fact, others version should be fine to run it.
 
@@ -74,7 +74,7 @@ flow_root=$root_path"/i-LIDS-VID-EpicFlow/sequences"
 
 you can apply to others dataset by following steps.
 
-1.Download the datasets.
+1. Download the datasets.
 
 iLIDS-VID:
 [http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html](http://www.eecs.qmul.ac.uk/~xiatian/downloads_qmul_iLIDS-VID_ReID_dataset.html)
@@ -85,13 +85,13 @@ PRID2011:
 MARS:
 [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html)
 
-2.Extract epicflow.
+2. Extract epicflow.
 
 Download our another project:
 [epicflow-python3](https://github.com/zyoohv/epicflow-python3.git).
 More information please see `README.md` file in it.
 
-3.Edit the configure file.
+3. Edit the configure file.
 
 Our setting file `base_model/setting.json` looks like:
 
@@ -120,7 +120,7 @@ in which the key word `is_running` decides to run this part code or
 not. The default setting is used to do experiment in `iLIDS-VID`
 dataset. Edit it if needed in other datasets.
 
-### 4.Run `base_model/run.sh`.
+4. Run `base_model/run.sh`.
 
 ## QA
 
